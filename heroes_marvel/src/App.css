@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333;
+}
+.AgentsShield {
+  background-color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  
+}
+
+.logo img {
+  height: 70px;
+  padding: 10px;
+}
+
+.logo-text {
+  margin-left: 10px;
+}
+
+.logo-text-top {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-text-bottom {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.user {
+  display: flex;
+}
+
+.user-image img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.user-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.btn-register,
+.btn-assign {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.btn-register:hover,
+.btn-assign:hover {
+  background-color: #f17777;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border-right: 1px solid #fff;
+  gap:20px
+}
+.user-avatar img{
+  margin-top: 20px;
+}
+.user-avatar p {
+  border: 1px solid #DDDDDD;
+  border-radius: 7px 0px;
+  color: #ddd;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 10px;
+}
+.user-avatar nav{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.user-avatar nav div{
+  background: #ddd;
+  border-radius: 7px 0px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.user-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.buttons button {
+  margin-top: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+.content header{
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+}
+.content header input{
+  border: 1px solid #DDDDDD;
+  border-radius: 7px 0px;
+  color: #ddd;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 10px;
+  background: none;
+  width: 300px;
+}
+.content header button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 700px;
+}
+.content article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap:5%;
+  
+}
+.content article section{
+  width: 40%;
+  border: 1px solid #DDDDDD;
+  border-radius: 7px 0px;
+  color: #ddd;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 10px;
+  margin-bottom: 25px;
+}
+
+
+

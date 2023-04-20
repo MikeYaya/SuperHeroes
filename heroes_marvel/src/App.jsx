@@ -40,7 +40,6 @@ function App() {
               <img src={Filter} alt="Black Widow" />
             </button>
           </header>
-          <div className='Scrollable'>
           <article className='Buscador1'>
             {characters.map((character) => (
               <section key={character.id}>
@@ -59,8 +58,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
-  );
+     );
 }
 
 export default App;

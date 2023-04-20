@@ -179,6 +179,10 @@ body{
   padding: 7px 10px;
   margin-bottom: 25px;
 }
-
-
+.scrollable {
+  overflow-y: scroll;
+}
+.logs{
+  width: 150px;
+}
 

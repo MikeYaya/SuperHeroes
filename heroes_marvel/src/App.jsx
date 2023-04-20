@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import logo from "./assets/logo.png"
 import Filter from './assets/img/Filter.png'
+import Coulson from './assets/img/Coulson.jpg'
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -23,7 +24,7 @@ function App() {
       <div className="user-info">
         <div className="user-avatar">
           <img 
-              src="https://depor.com/resizer/GWrmmvJyrBzZJ3HjbXQKBDf4e08=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/D3XDQJQK5REKRE6T3IWVZ5TXZ4.jpg" 
+              src={Coulson}
               alt="User_Avatar" />
           <p>Agent Coulson</p>
           <nav>
